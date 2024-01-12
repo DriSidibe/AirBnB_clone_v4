@@ -14,7 +14,7 @@ function init() {
   apiStatus();
 }
 function apiStatus() {
-  const API_URL = `http://${HOST}:5000/api/v1/status/`;
+  const API_URL = `http://${HOST}:5001/api/v1/status/`;
   $.get(API_URL, (data, textStatus) => {
     if (textStatus === "success" && data.status === "OK") {
       $("#api_status").addClass("available");
