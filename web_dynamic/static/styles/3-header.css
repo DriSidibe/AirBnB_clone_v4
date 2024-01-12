@@ -10,7 +10,7 @@ header {
 header .logo {
   background: url("../images/logo.png") no-repeat;
   height: 60px;
-  width: 142;
+  width: 142px;
   left: 20px;
   height: 100%;
   border: 2px solid red;
