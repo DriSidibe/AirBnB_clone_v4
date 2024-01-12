@@ -1,5 +1,5 @@
 $(document).ready(init);
-const HOST = "0.0.0.0";
+const HOST = "3.85.41.195";
 function init() {
   const amenityObj = {};
   $(".amenities .popover input").change(function () {
