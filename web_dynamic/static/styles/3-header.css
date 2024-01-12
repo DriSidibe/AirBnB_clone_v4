@@ -13,6 +13,7 @@ header .logo {
   width: 142;
   left: 20px;
   height: 100%;
+  border: 2px solid red;
 }
 
 #api_status {
