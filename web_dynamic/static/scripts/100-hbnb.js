@@ -41,9 +41,11 @@ function apiStatus() {
   const API_URL = `http://${HOST}:5001/api/v1/status/`;
   $.get(API_URL, (data, textStatus) => {
     if (textStatus === "success" && data.status === "OK") {
-      $("#api_status").addClass("available");
+      // $("#api_status").addClass("available");
+      $("#api_status").css("background-color", "#ff545f");
     } else {
-      $("#api_status").removeClass("available");
+      // $("#api_status").removeClass("available");
+      $("#api_status").css("background-color", "#cccccc");
     }
   });
 }
